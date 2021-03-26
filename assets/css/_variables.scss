@@ -1,0 +1,15 @@
+//Primary Colors
+$vd-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+
+$dg-magenta: hsl(303, 10%, 53%);
+$lg-magenta: hsl(300, 24%, 96%);
+
+//Responsive design
+$screen-size: 600px;
+
+@mixin m {
+   @media (min-width: #{$screen-size}) {
+      @content;
+   }
+}
